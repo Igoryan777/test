@@ -1,0 +1,208 @@
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/roboto */
+@import "http://fonts.fontstorage.com/import/roboto.css";
+/*
+	Roboto, 100, 100 italic, 300, 300 italic, 400, 400 italic, 500, 500 italic, 700, 700 italic, 900, 900 italic
+*/
+.vc-space-1 {
+  width: 100%;
+  height: 100px; }
+
+.vc-space-05 {
+  width: 100px;
+  height: 30px;
+  background: none; }
+
+body {
+  font-family: Roboto, san-serif;
+  background-color: darkgray;
+  overflow-x: hidden; }
+
+label {
+  font-family: Myriad Pro, sans-serif; }
+
+:not(svg), :not(foreignObject) > svg {
+  -webkit-transform-origin: 137px 146px !important;
+          transform-origin: 137px 146px !important; }
+
+svg.meter {
+  margin-right: 0 !important; }
+
+.form {
+  background: url("../img/bgnd.png") no-repeat center;
+  background-size: cover;
+  width: 660px;
+  margin: 0 auto;
+  padding: 30px 20px 20px 20px; }
+  .form .first-grid {
+    border-bottom: 0.5px solid white;
+    padding: 20px 0; }
+    .form .first-grid .avatar {
+      margin-top: -40px; }
+      .form .first-grid .avatar img {
+        width: 140px; }
+    .form .first-grid form {
+      position: relative;
+      margin-top: -60px; }
+      .form .first-grid form .pechat {
+        position: absolute;
+        bottom: 5px;
+        right: 0; }
+      .form .first-grid form input {
+        background: none;
+        font-size: 14px;
+        border-style: none !important;
+        border-bottom: 1.5px solid black !important;
+        box-shadow: none !important; }
+        .form .first-grid form input::-webkit-input-placeholder {
+          text-transform: uppercase;
+          font-size: 14px; }
+        .form .first-grid form input::-ms-input-placeholder {
+          text-transform: uppercase;
+          font-size: 14px; }
+        .form .first-grid form input::placeholder {
+          text-transform: uppercase;
+          font-size: 14px; }
+  .form .second-grid {
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid white; }
+    .form .second-grid .skills {
+      font-size: 18px; }
+    .form .second-grid .checkbox-wrapper input {
+      cursor: pointer;
+      height: 20px;
+      margin: 0px;
+      opacity: 0;
+      position: absolute;
+      width: 20px;
+      z-index: 2; }
+      .form .second-grid .checkbox-wrapper input:active + .checkbox:before {
+        height: 50px;
+        width: 50px; }
+      .form .second-grid .checkbox-wrapper input:checked + .checkbox:after {
+        height: 20px;
+        opacity: 1;
+        width: 20px; }
+    .form .second-grid .checkbox-wrapper .checkbox {
+      border: .3px solid black;
+      border-radius: 2px;
+      height: 16px;
+      position: relative;
+      transition: all 0.5s;
+      width: 18px;
+      float: left;
+      margin-right: 10px;
+      background-color: darkgrey; }
+      .form .second-grid .checkbox-wrapper .checkbox:before, .form .second-grid .checkbox-wrapper .checkbox:after {
+        content: '';
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%); }
+      .form .second-grid .checkbox-wrapper .checkbox:before {
+        background-color: rgba(242, 242, 242, 0.9);
+        border-radius: 50%;
+        height: 5px;
+        width: 5px;
+        z-index: -1; }
+      .form .second-grid .checkbox-wrapper .checkbox:after {
+        background-color: #29b6f6;
+        border-radius: 2px;
+        height: 5px;
+        opacity: 0;
+        width: 5px; }
+      .form .second-grid .checkbox-wrapper .checkbox i {
+        color: white;
+        height: 16px;
+        left: 1px;
+        pointer-events: none;
+        position: absolute;
+        top: 0px;
+        width: 16px;
+        z-index: 2; }
+    .form .second-grid .checkbox-wrapper label {
+      font-weight: 600;
+      font-size: 12px; }
+  .form .third-grid {
+    padding-top: 70px; }
+    .form .third-grid h2 {
+      font-size: 20px;
+      font-weight: bold; }
+    .form .third-grid .wrapper {
+      width: 600px; }
+    .form .third-grid .rang-title {
+      margin-top: 35px; }
+    .form .third-grid .rang-number {
+      width: 100%;
+      font-size: 50px;
+      font-weight: 900;
+      color: #0093d7; }
+    .form .third-grid .meter {
+      display: block;
+      width: 273px;
+      height: 155px; }
+    .form .third-grid .meter-left {
+      -webkit-transform: skewX(-2deg) skewY(1deg);
+              transform: skewX(-2deg) skewY(1deg);
+      stroke-width: 58;
+      stroke-dashoffset: 253;
+      stroke-dasharray: 120 400;
+      stroke: #ffc815;
+      fill: none; }
+    .form .third-grid .meter-center {
+      stroke-width: 56;
+      stroke-dashoffset: 128;
+      stroke-dasharray: 120 400;
+      stroke: #a3cd3b;
+      fill: none; }
+    .form .third-grid .meter-right {
+      -webkit-transform: skewX(2deg) skewY(1deg);
+              transform: skewX(2deg) skewY(1deg);
+      stroke-width: 58;
+      stroke-dashoffset: 5;
+      stroke-dasharray: 120 400;
+      stroke: #0093d7;
+      fill: none; }
+      .form .third-grid .meter-right .meter-clock {
+        -webkit-transform: rotate(-54deg);
+                transform: rotate(-54deg);
+        -webkit-transform-origin: 137px 146px !important;
+                transform-origin: 137px 146px !important;
+        fill: black; }
+      .form .third-grid .meter-right .meter-circle {
+        fill: black; }
+
+@media only screen and (max-width: 1024px) {
+  .third-grid .wrapper {
+    width: 50% !important;
+    margin: 0 auto !important; }
+  .third-grid .rang-title {
+    text-align: center; }
+    .third-grid .rang-title h2 {
+      margin-top: 20px; }
+    .third-grid .rang-title #show {
+      margin-top: 0; } }
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    padding: 0;
+    margin: 0; }
+
+  .form {
+    margin: 0;
+    width: 100%; } }
+@media only screen and (max-width: 640px) {
+  .form .first-grid .avatar {
+    display: block;
+    width: 100%;
+    text-align: center; }
+    .form .first-grid .avatar img {
+      width: 150px;
+      margin-bottom: 50px; }
+
+  .vc-space-05 {
+    height: 5px; } }
+@media only screen and (max-width: 480px) {
+  .wrapper svg.meter {
+    position: relative;
+    right: 60px; } }
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,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Q2hCLHFCQUFvQjtNQUNwQiwwQkFBeUI7TUFDekIsZ0JBQWU7TUFDZixXQUFVLEVBQUE7TUFFVjtRQUNFLGtDQUF5QjtnQkFBekIsMEJBQXlCO1FBQ3pCLGlEQUF3QztnQkFBeEMseUNBQXdDO1FBQ3hDLFlBQVcsRUFBQTtNQUdiO1FBQ0UsWUFBVyxFQUFBOztBQU1uQjtFQUVJO0lBQ0Usc0JBQXFCO0lBQ3JCLDBCQUF5QixFQUFBO0VBRTNCO0lBQ0UsbUJBQWtCLEVBQUE7SUFDbEI7TUFDRSxpQkFBZ0IsRUFBQTtJQUVsQjtNQUNFLGNBQWEsRUFBQSxFQUFBO0FBTXJCO0VBQ0U7SUFDRSxXQUFVO0lBQ1YsVUFBUyxFQUFBOztFQUVYO0lBQ0UsVUFBUztJQUNULFlBQVcsRUFBQSxFQUFBO0FBSWY7RUFHTTtJQUNFLGVBQWM7SUFDZCxZQUFXO0lBQ1gsbUJBQWtCLEVBQUE7SUFDbEI7TUFDRSxhQUFZO01BQ1osb0JBQW1CLEVBQUE7O0VBSzNCO0lBQ0UsWUFBVyxFQUFBLEVBQUE7QUFJZjtFQUVJO0lBQ0UsbUJBQWtCO0lBQ2xCLFlBQVcsRUFBQSxFQUFBIiwiZmlsZSI6InN0eWxlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbXX0= */
